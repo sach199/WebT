@@ -1,6 +1,7 @@
 body{
     
-    background-image: linear-gradient(to top,yellow 40%, orange 60%);
+    /*background-image: linear-gradient(to top,yellow 40%, orange 60%);*/
+    background-image: url(back1.jpg);
 }
 #NavMenu{
     
@@ -12,8 +13,18 @@ body{
     clear: left;
     width: 175px;
     float: left;
+    
+}
+#NavMenu li{
+    font: medium sans-serif black bold;
+    border: solid 2px black;
+    height: 40px;
+    list-style-position: inside;
+    background-image: linear-gradient(to top,blue 5%, cyan 60%);
+      
 }
 #wrapper{
+    background-image: url(back2.jpg);
     background-color: green;
     float:left;
     padding: 5px;
@@ -21,30 +32,35 @@ body{
 }
 #namebox{
     
-    background-color:cyan;
+    /*background-color:cyan;*/
+    border: solid 2px black;
     font: bold medium sans-serif;
     font-family: cursive;
     margin: 30px;
     padding: 15px;
     width:700px;
     border-radius: 10px;
-    
+    background-image: url(pattern.gif);
 }
 #namebox img{
     width:200px;
     height:100px;
-    background-color: grey;
+   /* background-color: grey;*/
     border: solid  medium black;
     margin: 10px;
     border-radius: 5px;
     float: left;
+    
 }
 #main1 {
     padding: 15px;
     margin: 30px;
-    background-color: red;
+    /*background-color: red;*/
     width: 700px;
     height: 300px;
+    border-radius: 5px;
+    border: solid 5px black;
+    background-image: url(pattern2.png);
 }
 #main1 h4 {
     font: larger sans-serif bold;
