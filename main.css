@@ -2,7 +2,24 @@ body{
     
     background-image: linear-gradient(to top,yellow 40%, orange 60%);
 }
+#NavMenu{
+    
+    border:5px dashed brown;
+    margin: 10px;
+    background-color: grey;
+    margin-top: 45px;
+    height: 400px;
+    clear: left;
+    width: 175px;
+    float: left;
+}
 #wrapper{
+    background-color: green;
+    float:left;
+    padding: 5px;
+    border-radius: 5px;
+}
+#namebox{
     
     background-color:cyan;
     font: bold medium sans-serif;
@@ -11,14 +28,16 @@ body{
     padding: 15px;
     width:700px;
     border-radius: 10px;
+    
 }
-#wrapper img{
+#namebox img{
     width:200px;
     height:100px;
     background-color: grey;
     border: solid  medium black;
     margin: 10px;
     border-radius: 5px;
+    float: left;
 }
 #main1 {
     padding: 15px;
@@ -30,14 +49,4 @@ body{
 #main1 h4 {
     font: larger sans-serif bold;
     text-decoration: underline
-}
-#NavMenu{
-    
-    border:5px dashed brown;
-    margin: 10px;
-    background-color: grey;
-    margin-top: 45px;
-    height: 400px;
-    clear: left;
-    width: 175px;
 }
