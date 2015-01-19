@@ -1,0 +1,43 @@
+body{
+    
+    background-image: linear-gradient(to top,yellow 40%, orange 60%);
+}
+#wrapper{
+    
+    background-color:cyan;
+    font: bold medium sans-serif;
+    font-family: cursive;
+    margin: 30px;
+    padding: 15px;
+    width:700px;
+    border-radius: 10px;
+}
+#wrapper img{
+    width:200px;
+    height:100px;
+    background-color: grey;
+    border: solid  medium black;
+    margin: 10px;
+    border-radius: 5px;
+}
+#main1 {
+    padding: 15px;
+    margin: 30px;
+    background-color: red;
+    width: 700px;
+    height: 300px;
+}
+#main1 h4 {
+    font: larger sans-serif bold;
+    text-decoration: underline
+}
+#NavMenu{
+    
+    border:5px dashed brown;
+    margin: 10px;
+    background-color: grey;
+    margin-top: 45px;
+    height: 400px;
+    clear: left;
+    width: 175px;
+}
